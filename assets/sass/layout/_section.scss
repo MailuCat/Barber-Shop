@@ -1,0 +1,114 @@
+
+.section_uno {
+   
+    margin-top: 0px;
+    margin-left: $ocho_porciento;
+    margin-right: $ocho_porciento;
+            p {
+                font-family:$Roboto ;
+                font-size: $dieciseis;
+                margin: $cuarentapx;
+                
+            }
+}
+
+.naomi{
+       display: inline-block;
+       margin-right: $cientocuarentapx;
+       margin-left: $cientocuarentapx;
+       margin-top: 50px;
+       margin-bottom: 50px;
+       text-align: center;
+       position: relative;
+     
+            img{
+                border-radius: $cincuentaporciento;
+                text-align: center;
+                
+            };
+ }
+       
+   
+            .naomi_nombre{
+                            
+                        display: inline-block;
+                        text-align: left;
+                        margin-left: $cuarentapx ;
+                        margin-top: $sesentapx;
+                        position: absolute;
+
+                      
+                            h3{
+                                font-family:$Playfairdisplay;
+                                font-size: $xx-large;
+                                margin-top: $cincuentapx;
+                                width: 200px;
+                               
+                            
+                            }
+                            p{
+                                font-family: $Roboto;
+                                font-size: $doce;
+                                color: $fuzziwuzzi;
+                            }
+
+            }
+            .parrafo_naomi {
+                display: inline-block;
+                margin-left: 380px;
+                position: absolute;
+                top: $cuarentaporciento;
+                text-align: justify;
+                width: 360px;
+                font-family: $Roboto;
+            }
+            
+
+ @include media-breakpoint-down(md) {
+    .naomi {
+        display: block;
+        width: 80%vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+     .naomi img{
+        width: 400px;
+
+
+    }
+    .naomi_nombre{
+         display: block;
+        padding-bottom: 70px;
+         text-align: center;
+         width: 220px;
+         position:relative;
+         margin-right: auto;
+         margin-left: auto;
+    }
+
+    .naomi_nombre h3{
+            
+        font-size: 32px;
+        width: 80%vw;
+        text-align: center;
+        position: relative;
+
+    }
+        
+    .naomi_nombre p {
+                text-align: center;
+                font-size: 16px;
+    }
+    .parrafo_naomi{
+       display: none;
+   }
+
+     
+}
+
+
+
+
+
